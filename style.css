@@ -31,6 +31,7 @@ body
 #text-center
 {
     text-align: center;
+    display: block;
 }
 
 #image-center
@@ -42,15 +43,37 @@ body
     height: 15%;
 }
 
-table, tr, td
+button
 {
-    border: 1px solid;
-    border-color: #ffffff;   
-    width: 600px;
+    color: #ffffff;
+    background-color: #202020;
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 6.75%;
 }
 
-#table-center
+button:hover
 {
+    background-color: #404040;
+    transition: background-color;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+#button-center
+{
+    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
 }
