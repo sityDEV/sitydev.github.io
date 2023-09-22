@@ -8,6 +8,28 @@ body
     background-color: #202020;
 }
 
+.logo
+{
+    color: #ffffff;
+    background-color: #191919;
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 6.75%;
+}
+
+.logo:hover
+{
+    background-color: #404040;
+    transition: background-color;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
 .text
 {
     color: #ffffff;
@@ -76,4 +98,16 @@ button:hover
 a
 {
     text-decoration: none;
+}
+
+p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.image
+{
+    border-radius: 10px;
 }
