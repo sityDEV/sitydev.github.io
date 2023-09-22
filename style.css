@@ -111,3 +111,9 @@ p
 {
     border-radius: 10px;
 }
+
+hr
+{
+    border-radius: 1px;
+    width: 12.5%;
+}
