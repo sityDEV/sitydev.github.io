@@ -23,7 +23,8 @@ body {
     width: 125px;
     border-radius: 10px;
     background-color: rgba(0, 170, 170, 0.3);
-    
+    transition: background-color;
+    transition-duration: 0.3s;
 }
 
 .abutton:hover {
