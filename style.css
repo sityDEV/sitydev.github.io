@@ -49,3 +49,23 @@ body {
     bottom: 10px;
     left: 20px;
 }
+
+#dz {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.dzto {
+    text-decoration: none;
+    color: #F0F0F0;
+    opacity: 0;
+    font-size: large;
+    transition: opacity;
+    transition-duration: 0.3s;
+}
+
+.dzto:hover {
+    opacity: 1;
+    color: #F0F0F0;
+}

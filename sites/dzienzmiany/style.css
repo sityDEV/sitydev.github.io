@@ -1,0 +1,44 @@
+body {
+    background-color: #202020;
+    color: #F0F0F0;
+    font-family: "Noto Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#time {
+    color: darkgray;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.alink {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-size: large;
+    transition: color;
+    transition-duration: 0.3s;
+}
+
+.alink:hover {
+    color: #00AAAA;
+}
+
+.back {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
